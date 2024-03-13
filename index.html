@@ -11,6 +11,10 @@
 
         <link rel="stylesheet" href="./style/global.css">
 
+        <link rel="shortcut icon" href="imagens/icons8-4k-48.png" type="image/x-icon">
+
+        <!--link que fazem a inportações se estilo...-->
+
     </head>
 <body>
     <div id="background">
@@ -20,7 +24,10 @@
     </div> <!--video de background-->
 
     <div id="app">
-        <header>
+        <header
+        data-aos="fade-right"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-png">
             <img src="imagens/outer_banks_logo.png" alt="logo">
         
             <ul class="navigation">
@@ -47,7 +54,7 @@
                 </svg>
             </div> <!--icones de redes sociais-->
 
-        </header> <!--img da logo-->
+        </header> 
 
         <main>
             <div class="main_info">
@@ -55,7 +62,8 @@
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-easing="ease-in-png"
-                 src="imagens/boneco_logo.png" width="250px" alt="boneco_logo">
+                 src="imagens/boneco_logo.png" width="250px" alt="boneco_logo"> <!--img da logo-->
+                 <!--codigo dentor da tag faz a animação-->
 
                 <p
                 data-aos="fade-up"
@@ -64,11 +72,12 @@
                 data-aos-easing="ease-in-png"
                 >
                     Outer Banks acompanha um grupo de adolescentes da Carolina do Norte, mais conhecidos como "Pogues". John B é o líder da gangue e passa seu tempo livre surfando e curtindo sua juventude. Eles se deparam, então, com um segredo impressionante: o desaparecimento do pai de John durante um acidente de navio parece estar relacionado a um tesouro de quatro milhões de dólares, cheio de ouro. Com a ajuda dos "Pogues", John parte em uma missão para localizar seu pai e descobrir a verdade por trás dessa história.
-                </p>
+                </p> <!--paragrafo que fala da serie-->
+                <!--codigo dentor da tag faz a animação-->
 
                 <div>
-                    <a href="https://youtu.be/GfQziAMpcVo?si=hTQQ09ub5atKukzZ" target="_blank">Assistir trailer</a>
-                    <button><a href="https://www.netflix.com/br/" target="_blank">Assistir série</a></button> <!--rever o codigo aqui-->
+                    <a href="https://youtu.be/GfQziAMpcVo?si=hTQQ09ub5atKukzZ" target="_blank">Assistir trailer</a> <!-- botâo com link externo-->
+                    <button><a href="https://www.netflix.com/br/" target="_blank">Assistir série</a></button> <!-- botâo com link externo-->
                 </div>
             </div>
 
@@ -76,15 +85,16 @@
             data-aos="fade-left"
             data-aos-delay="500"
             data-aos-duration="800"
-            data-aos-easing="ease-in-png"
-            src="imagens/grupo.jpg" width="300px" alt="img personagens">
+            data-aos-easing="ease-in-png" 
+            src="imagens/grupo.jpg" width="300px" alt="img personagens"> <!--add imagem-->
+            <!--codigo dentor da tag faz a animação-->
         </main>
 
 
 
     </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--faz com que as animaçôes fucionem-->
     <script>
       AOS.init();
     </script>
