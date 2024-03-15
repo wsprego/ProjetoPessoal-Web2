@@ -11,7 +11,7 @@ main{
 
 .main_info{
     width: 100%;
-    max-width: 570px;
+    max-width: 600px;
 }
 
 .main_info p{
@@ -39,12 +39,7 @@ main{
 
 }
 
-.main_info div a #btn_fundo_trans{
-    background: transparent;
-
-}
-
-.main_info div a {
+.main_info div a{
     background: var(--red);
 
 }
