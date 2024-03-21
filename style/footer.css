@@ -1,0 +1,41 @@
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.footer_social{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os ícones */
+    align-items: center; /* Centraliza verticalmente os ícones */
+    padding: 0px; /* Adicione espaço interno para os ícones */
+}
+
+.footer_social svg{
+    width: 20px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: 20px;
+    fill: #fff; /* Cor dos ícones */
+    margin: 0 20px; /* Adicione margem entre os ícones */
+}
+
+.footer_social svg:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 600px){
+    /* Ajustes para telas menores */
+    .footer_social{
+        flex-wrap: wrap; /* Permite que os ícones quebrem para a próxima linha */
+        justify-content: space-around; /* Distribui os ícones igualmente */
+        padding: 5px; /* Reduz o espaço interno */
+    }
+
+    .footer_social svg{
+        width: 15px; /* Reduz o tamanho dos ícones para telas menores */
+        height: 15px;
+        margin: 5px; /* Aumenta a margem entre os ícones */
+    }
+}
